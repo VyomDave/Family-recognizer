@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to left bottom, #5a7bf4, #486cf9, #355dfc, #234cfe, #1037ff, #302cfe, #431efc, #5300fa, #6c00f6, #7f00f2, #8f03ef, #9d0ceb);
+    font-family: 'Texturina', serif;
+    color: white;
+}
+#heading{
+    background-image: linear-gradient(to left bottom, #845ec2, #646cc5, #4875c1, #367cb7, #3880aa, #3d8aa4, #50929c, #679896, #84a597, #a2b19d, #bebdaa, #d5cabd);
+    color:white;
+    font-size: 30px;
+    width: 80%;
+    letter-spacing: 5px;
+}
+.object_list{
+    color: #ff0089;
+    font-size: 20px;
+    
+}
+#camera,#snapshot{
+  width: 300px;
+  height: 300px;
+  border:3px ridge grey;
+}
+button{
+    background-color:yellowgreen;
+    color: white;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+#object_result,#accuracy_result{
+    color: #fd006d;
+    font-weight: bold;
+}
