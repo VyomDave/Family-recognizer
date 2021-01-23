@@ -1,32 +1,61 @@
-body{
-    background-image: linear-gradient(to left bottom, #5a7bf4, #486cf9, #355dfc, #234cfe, #1037ff, #302cfe, #431efc, #5300fa, #6c00f6, #7f00f2, #8f03ef, #9d0ceb);
-    font-family: 'Texturina', serif;
-    color: white;
-}
-#heading{
-    background-image: linear-gradient(to left bottom, #845ec2, #646cc5, #4875c1, #367cb7, #3880aa, #3d8aa4, #50929c, #679896, #84a597, #a2b19d, #bebdaa, #d5cabd);
-    color:white;
-    font-size: 30px;
-    width: 80%;
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:10px 10px 20px rgb(190, 237, 255);
+    color: rgb(65, 56, 56);
+    font-size: 22px;
+    word-spacing: 10px;
     letter-spacing: 5px;
-}
-.object_list{
-    color: #ff0089;
+    background-image: linear-gradient(to left, #acf1ff, #b8e9fc, #c3e1f5, #cbd9ea, #cfd3de, #d0d1de, #d2d0de, #d4cedd, #dccee7, #e6ceef, #f2cdf6, #ffcbfb);
+  }
+  .heading2
+  {
+    background: rgb(66, 61, 61) ; 
+    border-radius: 20px; 
+    color: white;
+    box-shadow:10px 10px 20px grey;
+    word-spacing:normal;
+    letter-spacing: normal;
     font-size: 20px;
+    width: 60%;
+    padding: 10px;
     
-}
-#camera,#snapshot{
-  width: 300px;
-  height: 300px;
-  border:3px ridge grey;
-}
-button{
-    background-color:yellowgreen;
-    color: white;
-    margin: 20px;
-    letter-spacing: 5px;
-}
-#object_result,#accuracy_result{
-    color: #fd006d;
-    font-weight: bold;
-}
+  }
+  .heading3
+  {
+    font-size: 18px ;
+    color: yellow;
+    padding: 10px;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    background-color: white;
+    
+  }
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqpKjeU_UyDnH_pmWRrSdrkatefyDgyNZjBw&usqp=CAU");
+    font-family: 'Charmonman', cursive;
+    background-size:cover;
+  }
+  .copy_right_footer{
+      background-color: rgb(78, 78, 78);
+      color: yellow;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      text-align: center;
+      line-height: 2;
+      word-spacing: 5px;
+      font-size: 16px;
+  }
+  canvas{
+    border:10px groove white;
+    box-shadow: 10px 10px 20px yellow;
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+  }
+ 
